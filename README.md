@@ -1,2 +1,2 @@
-# Dise-o-de-Sistemas-2022
+# D. Sistemas - 2022
 Desarrollo del sistema PPAI 2022

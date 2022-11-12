@@ -1,0 +1,22 @@
+Tenemos que definir:
+	- Observadores concretos
+		- NotificacionEmail
+		- NotificacionWhatsapp
+
+	- Sujeto concreto
+		- Gestor
+
+	- IObservador
+		- notificar(motivoBajaReserva: String[])
+	
+	- ISujeto
+		- notificar(motivoBajaReserva: String[])
+		- suscribir(motivoBajaReserva: String[])
+		- quitar(motivoBajaReserva: String[])
+
+
+
+
+Metodo enganche
+	- 59
+	- Sigue todo igual hasta antes del 81 que es donde aplicamos el patron 

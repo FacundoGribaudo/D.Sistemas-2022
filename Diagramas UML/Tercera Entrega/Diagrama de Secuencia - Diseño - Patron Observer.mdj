@@ -11318,7 +11318,7 @@
 									"fontColor": "#ffffff",
 									"font": "Arial;13;0",
 									"left": 392,
-									"top": 3384,
+									"top": 3336,
 									"width": 93.67724609375,
 									"height": 51,
 									"text": "METODO DE ENGANCHE "
@@ -12405,6 +12405,119 @@
 									},
 									"activation": {
 										"$ref": "AAAAAAGBosViQh51nMw="
+									}
+								},
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGEd7EybWbEKmg=",
+									"_parent": {
+										"$ref": "AAAAAAGBoaBAxRBsS6U="
+									},
+									"model": {
+										"$ref": "AAAAAAGEd7EybWbDBjY="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGEd7EybWbFUBk=",
+											"_parent": {
+												"$ref": "AAAAAAGEd7EybWbEKmg="
+											},
+											"model": {
+												"$ref": "AAAAAAGEd7EybWbDBjY="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGEd7EybWbGptk=",
+													"_parent": {
+														"$ref": "AAAAAAGEd7EybWbFUBk="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGEd7EybWbH2kk=",
+													"_parent": {
+														"$ref": "AAAAAAGEd7EybWbFUBk="
+													},
+													"font": "Arial;13;1",
+													"left": 4885,
+													"top": 47,
+													"width": 62.736328125,
+													"height": 13,
+													"text": "Email"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGEd7EybWbIDk8=",
+													"_parent": {
+														"$ref": "AAAAAAGEd7EybWbFUBk="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGEd7EybWbJVeA=",
+													"_parent": {
+														"$ref": "AAAAAAGEd7EybWbFUBk="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 4880,
+											"top": 40,
+											"width": 72.736328125,
+											"height": 40,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGEd7EybWbGptk="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGEd7EybWbH2kk="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGEd7EybWbIDk8="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGEd7EybWbJVeA="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGEd7EybWbK4ZQ=",
+											"_parent": {
+												"$ref": "AAAAAAGEd7EybWbEKmg="
+											},
+											"model": {
+												"$ref": "AAAAAAGEd7EybWbDBjY="
+											},
+											"font": "Arial;13;0",
+											"left": 4916,
+											"top": 80,
+											"width": 1,
+											"height": 3209
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 4880,
+									"top": 40,
+									"width": 72.736328125,
+									"height": 3249,
+									"nameCompartment": {
+										"$ref": "AAAAAAGEd7EybWbFUBk="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGEd7EybWbK4ZQ="
 									}
 								}
 							]
@@ -13938,6 +14051,18 @@
 								"$ref": "AAAAAAGEbXa6Q0n36oY="
 							},
 							"isMultiInstance": false
+						},
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAGEd7EybWbDBjY=",
+							"_parent": {
+								"$ref": "AAAAAAGBoaBAwhBrWVw="
+							},
+							"name": "Email",
+							"represent": {
+								"$ref": "AAAAAAGEd7EybGbCcFQ="
+							},
+							"isMultiInstance": false
 						}
 					]
 				}
@@ -14158,6 +14283,14 @@
 					},
 					"name": "Role24",
 					"type": ""
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGEd7EybGbCcFQ=",
+					"_parent": {
+						"$ref": "AAAAAAGBoaBAvRBqpDs="
+					},
+					"name": "Role25"
 				}
 			]
 		},
@@ -14431,17 +14564,17 @@
 												"$ref": "AAAAAAGEbY+th0v02Ac="
 											},
 											"font": "Arial;13;0",
-											"left": 352,
-											"top": 111,
-											"width": 187.12890625,
+											"left": 312,
+											"top": 110,
+											"width": 213.14794921875,
 											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 10,
+											"alpha": -3.4962984262280346,
+											"distance": 28.792360097775937,
 											"hostEdge": {
 												"$ref": "AAAAAAGEbY+tiEv12+I="
 											},
 											"edgePosition": 1,
-											"text": "1 : tomarSeleccionNotificacion(.)"
+											"text": "1 : tomarConfirmacionMantenimiento"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -15661,14 +15794,13 @@
 							"_parent": {
 								"$ref": "AAAAAAGEbYx230ueWhU="
 							},
-							"name": "tomarSeleccionNotificacion",
+							"name": "tomarConfirmacionMantenimiento",
 							"source": {
 								"$ref": "AAAAAAGEbY9GbEu1r3Y="
 							},
 							"target": {
 								"$ref": "AAAAAAGEbY9fUkvVfeM="
-							},
-							"arguments": "."
+							}
 						},
 						{
 							"_type": "UMLMessage",
